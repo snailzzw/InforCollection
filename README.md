@@ -1,15 +1,9 @@
 # Information Collection
 ---
-+ **Language** : Python3  
-+ **Content** : 使用Python3完成的一些信息采集案例，涉及到的技术如下  
-    > 网络库 ：urllib、requests  
-    > 解析库 ：XPath  
-    > 数据存储 : 文件下载  
-    > 其他 ：多线程  
+数据采集项目。收集生活中的数据，用于数据分析与数据挖掘，服务于生活。  
+从生活中来，到生活中去！
 ---
-## 项目介绍
+## 项目列表
 ---
-+ [表情包下载器(expression_downloader)](https://github.com/snailzzw/InforCollection/tree/master/expression_downloader)
-    > 功能 ：自动批量下载网络表情包到本地  
-    > 技术 : requests(网络库)、XPath(解析库)、urllib、socket(下载文件)、多线程(消费者与生产者模式)  
-    > 备注 ：分为普通版和多线程版  
++ [豆瓣数据采集项目(DouBan_InforAcquisiton_Project)](https://github.com/snailzzw/InforCollection/tree/master/DouBan_InforAcquisiton_Project)
+  
