@@ -1,8 +1,11 @@
 # Information Collection
 ---
-数据采集项目。收集生活中的数据，用于数据分析与数据挖掘，服务于生活。  
-从生活中来，到生活中去！
+数据采集项目集合。收集互联网公开数据，从生活中来，到生活中去！  
+
 ---
+# 声明
+---
+所展示的项目仅供学习和参考，请勿用于其他用途，如侵权请联系本人删除！  
 ## 项目列表
 ---
 + [豆瓣数据采集项目(DouBan_InforAcquisition_Project)](https://github.com/snailzzw/InforCollection/tree/master/DouBan_InforAcquisition_Project)
