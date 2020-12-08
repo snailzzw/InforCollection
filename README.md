@@ -15,4 +15,6 @@
 > > + [Ajax数据采集项目(Ajax_InforAcquisition_Project)](https://github.com/snailzzw/InforCollection/tree/master/Ajax_InforAcquisition_Project)  
 > > + [网络图片采集项目(Internet_ImgAcquisition_Project)](https://github.com/snailzzw/InforCollection/tree/master/Internet_ImgAcquisition_Project)  
 > > + [百度信息采集项目(Baidu_InforAcquisition_Project)](https://github.com/snailzzw/InforCollection/tree/master/Baidu_InforAcquisition_Project)  
+> > + [Cookie池搭建(CookiesPool)](https://github.com/snailzzw/InforCollection/tree/master/CookiesPool)  
+> > + [Scrapy数据采集项目(Scrapy_InforAcquisition_Project)](https://github.com/snailzzw/InforCollection/tree/master/Scrapy_InforAcquisition_Project)  
   
