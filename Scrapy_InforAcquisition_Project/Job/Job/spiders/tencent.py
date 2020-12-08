@@ -28,7 +28,7 @@ class TencentSpider(scrapy.Spider):
         # 读取职位数量，并计算页数（向上取整）
         page_num = math.ceil(json_content['Data']['Count']/10)
         # url队列
-        url_list = [self.base_url.format(pg_num) for pg_num in range(1, page_num+1)]
+        url_list = [self.base_url.format(pg_num) for pg_num in range(2, page_num+1)]
         for url in url_list:
             yield scrapy.Request(url=url, callback=self.parse_response)
 
