@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>POI边界图</title>
+        <script type="text/javascript" src="http://api.map.baidu.com/api?v=1.2"></script>
+    </head>
+<body>
+    <div  style="width:1000px;height:800px;border:1px solid gray" id="container"></div>
+
+    <script type="text/javascript">
+        window.onload = function(){
+            var map = new BMap.Map("container");
+            map.centerAndZoom(new BMap.Point(114.13,30.38), 19);
+            map.addControl(new BMap.NavigationControl());               // 添加平移缩放控件
+            map.addControl(new BMap.ScaleControl());                    // 添加比例尺控件
+            map.addControl(new BMap.OverviewMapControl());              //添加缩略地图控件
+            var polygon = new BMap.Polygon([
+                new BMap.Point(114.13137761210689,30.381369553441715),
+                new BMap.Point(114.13138671104339,30.381493535439898),
+                new BMap.Point(114.13153823721682,30.381978920721494),
+                new BMap.Point(114.13156536245,30.382110816532983),
+                new BMap.Point(114.13156645209457,30.38224183554453),
+                new BMap.Point(114.13155860090441,30.382476915808372),
+                new BMap.Point(114.13196030426407,30.382740982937047),
+                new BMap.Point(114.13197955764606,30.383089946047505),
+                new BMap.Point(114.13279976088178,30.383090440704613),
+                new BMap.Point(114.13281915529774,30.382130153528117),
+                new BMap.Point(114.1328010688146,30.382044243603858),
+                new BMap.Point(114.13275895086247,30.381968475399365),
+                new BMap.Point(114.13239406006262,30.381481448190854),
+                new BMap.Point(114.13236998906817,30.381430570473395),
+                new BMap.Point(114.1323609314537,30.381368608116553),
+                new BMap.Point(114.13236166806423,30.380999531967525),
+                new BMap.Point(114.1314794790534,30.381009011269438),
+                new BMap.Point(114.13141948841483,30.381124312948387),
+                new BMap.Point(114.13138953711253,30.381244474466175),
+                new BMap.Point(114.13137761210689,30.381369553441715),
+
+            ], {strokeColor:"blue", strokeweight:5, strokeOpacity:0.5}); //创建多边形
+            map.addOverlay(polygon); //增加多边形
+
+        }
+    </script>
+
+</body>
+</html>
